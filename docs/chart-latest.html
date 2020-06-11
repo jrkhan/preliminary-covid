@@ -6,6 +6,22 @@
 
 <div id="fig_el1221397590127691284169293528"></div>
 <script>
+   // Check if a new cache is available on page load.
+window.addEventListener('load', function(e) {
+
+window.applicationCache.addEventListener('updateready', function(e) {
+  if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+    // Browser downloaded a new app cache.
+    if (confirm('A new version of this site is available. Load it?')) {
+      window.location.reload();
+    }
+  } else {
+    // Manifest didn't changed. Nothing new to server.
+  }
+}, false);
+
+}, false);
+
 function mpld3_load_lib(url, callback){
   var s = document.createElement('script');
   s.src = url;
