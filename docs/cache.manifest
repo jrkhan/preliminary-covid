@@ -1,4 +1,5 @@
 CACHE MANIFEST
-# 6-11-2020 v1
+# 6-11-2020 v0.1
 chart.html
 chart-latest.html
+https://mpld3.github.io/js/d3.v3.min.js
