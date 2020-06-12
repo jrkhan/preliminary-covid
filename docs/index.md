@@ -8,4 +8,4 @@ layout: home
 
 Checking to see how quickly content updates by default
 
-{% include chart-latest.html %}
+{% include chart.html %}
