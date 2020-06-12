@@ -4,4 +4,6 @@
 
 layout: home
 ---
-##Github Pages Test##
+## Github Pages Test
+
+Checking to see how quickly content updates by default
