@@ -4,8 +4,8 @@
 
 layout: home
 ---
-## Github Pages Test
+## Daily new positive tests in Monroe and Onondaga County
 
-Checking to see how quickly content updates by default
+Last updated 6/12/2020
 
 {% include chart.html %}
