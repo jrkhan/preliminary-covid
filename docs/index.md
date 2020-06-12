@@ -6,4 +6,4 @@ layout: default
 {% include chart.html %}
 </div>
 
-Last updated {{ site.time | date: '%B %d, %Y' }}
+Last updated {{ site.time | date: '%B %d, %r' }}
