@@ -30,6 +30,7 @@ github_username:  jrkhan
 
 # Build settings
 theme: jekyll-theme-tactile
+future: true
 #plugins:
 #  - jekyll-feed
 
