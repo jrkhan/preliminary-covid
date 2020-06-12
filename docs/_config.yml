@@ -5,7 +5,7 @@ url: "https://jrkhan.github.io/" # the base hostname & protocol for your site, e
 
 github_username:  jrkhan
 
-theme: jekyll-theme-modernist
+theme: jekyll-theme-cayman
 
 #plugins:
 #  - jekyll-feed
