@@ -7,3 +7,5 @@ layout: home
 ## Github Pages Test
 
 Checking to see how quickly content updates by default
+
+{% include chart-latest.html %}
