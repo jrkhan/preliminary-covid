@@ -5,5 +5,6 @@
 layout: home
 ---
 ## Daily new positive tests in Monroe and Onondaga County
+{% include chart.html %}
 
-Last updated 6/12/2020 @12:20 PM
+Last updated {{ site.time | date: '%B %d, %Y' }}
