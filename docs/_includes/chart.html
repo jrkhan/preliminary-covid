@@ -1,16 +1,18 @@
-<div id="observablehq-bcf7bd77">
+<div id="observablehq-c61bc04c">
   <div class="observablehq-viewof-filterString"></div>
   <div class="observablehq-viewof-selected"></div>
   <div class="observablehq-viewof-findDaily"></div>
+  <div class="observablehq-swatchesExport"></div>
   <div class="observablehq-exportChart"></div>
 </div>
 <script type="module">
   import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
   import define from "https://api.observablehq.com/@jrkhan/by-county-covid19-time-series.js?v=3";
   (new Runtime).module(define, name => {
-    if (name === "viewof filterString") return Inspector.into("#observablehq-bcf7bd77 .observablehq-viewof-filterString")();
-    if (name === "viewof selected") return Inspector.into("#observablehq-bcf7bd77 .observablehq-viewof-selected")();
-    if (name === "viewof findDaily") return Inspector.into("#observablehq-bcf7bd77 .observablehq-viewof-findDaily")();
-    if (name === "exportChart") return Inspector.into("#observablehq-bcf7bd77 .observablehq-exportChart")();
+    if (name === "viewof filterString") return Inspector.into("#observablehq-c61bc04c .observablehq-viewof-filterString")();
+    if (name === "viewof selected") return Inspector.into("#observablehq-c61bc04c .observablehq-viewof-selected")();
+    if (name === "viewof findDaily") return Inspector.into("#observablehq-c61bc04c .observablehq-viewof-findDaily")();
+    if (name === "swatchesExport") return Inspector.into("#observablehq-c61bc04c .observablehq-swatchesExport")();
+    if (name === "exportChart") return Inspector.into("#observablehq-c61bc04c .observablehq-exportChart")();
   });
 </script>
