@@ -1,14 +1,16 @@
-<div id="observablehq-a4f838ea">
-   <div class="observablehq-viewof-selectedCounty"></div>
-   <div class="observablehq-viewof-findDaily"></div>
-   <div class="observablehq-resultChart"></div>
- </div>
- <script type="module">
-   import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-   import define from "https://api.observablehq.com/@jrkhan/by-county-covid19-time-series.js?v=3";
-   (new Runtime).module(define, name => {
-     if (name === "viewof selectedCounty") return Inspector.into("#observablehq-a4f838ea .observablehq-viewof-selectedCounty")();
-     if (name === "viewof findDaily") return Inspector.into("#observablehq-a4f838ea .observablehq-viewof-findDaily")();
-     if (name === "resultChart") return Inspector.into("#observablehq-a4f838ea .observablehq-resultChart")();
-   });
- </script>
+<div id="observablehq-bcf7bd77">
+  <div class="observablehq-viewof-filterString"></div>
+  <div class="observablehq-viewof-selected"></div>
+  <div class="observablehq-viewof-findDaily"></div>
+  <div class="observablehq-exportChart"></div>
+</div>
+<script type="module">
+  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+  import define from "https://api.observablehq.com/@jrkhan/by-county-covid19-time-series.js?v=3";
+  (new Runtime).module(define, name => {
+    if (name === "viewof filterString") return Inspector.into("#observablehq-bcf7bd77 .observablehq-viewof-filterString")();
+    if (name === "viewof selected") return Inspector.into("#observablehq-bcf7bd77 .observablehq-viewof-selected")();
+    if (name === "viewof findDaily") return Inspector.into("#observablehq-bcf7bd77 .observablehq-viewof-findDaily")();
+    if (name === "exportChart") return Inspector.into("#observablehq-bcf7bd77 .observablehq-exportChart")();
+  });
+</script>
