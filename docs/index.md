@@ -5,8 +5,9 @@ layout: default
 {% include chart.html %}
 </div>
 
-#### Data Source:
+#### Data Sources:
 [CDC](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html)
+
 [USAFacts](https://usafacts.org/visualizations/coronavirus-covid-19-spread-map/)
 
 #### Made with ObservableHQ:
