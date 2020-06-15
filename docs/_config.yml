@@ -9,7 +9,7 @@ theme: jekyll-theme-slate
 
 #plugins:
 #  - jekyll-feed
-
+google_analytics: UA-8811994-5
 
 exclude:
 #   - .sass-cache/
